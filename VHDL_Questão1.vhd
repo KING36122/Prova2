@@ -9,18 +9,10 @@ end circuito;
 
 architecture funcCircuito of circuito is
 Begin
+    --UTILIZEI DUAS PORTAS LÓGICAS COMO EXEMPLO: NOT E NAND
     --Negando a negação de A
     X <= NOT(NOT(A));
 
     --Negando o NAND
     X <= NOT(NOT(A AND B));
-
-    --Negando o NOR
-    X <= NOT(NOT(A OR B));
-
-    --Negando o AND
-    X <= NOT(A AND B);
-
-    --Negando o OR
-    X <= NOT(A OR B);
 end funcCircuito;
