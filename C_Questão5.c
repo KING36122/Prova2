@@ -4,7 +4,7 @@
 int main(){
 	int A,B,X;
 	
-	//OPERAÇÕES NOT
+	//OPERAÇÕES NOT 
 	A = 1;
 	X = !(!A);
 	printf("NOT(NOT %d): %d\n",A,X);
